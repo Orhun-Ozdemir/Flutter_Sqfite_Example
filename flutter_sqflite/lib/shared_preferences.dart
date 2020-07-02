@@ -47,7 +47,7 @@ class _SharedPreState extends State<SharedPre> {
             Padding(padding: EdgeInsets.all(10),
             
             child: TextFormField(
-              key: formkey,
+        
               onSaved: (namevalue){
      
                    name=namevalue;
